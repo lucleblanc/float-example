@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+nav {
+    background: rgb(56, 56, 56);
+    padding: 3rem;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 0 2rem;
+}
+
+.hero-section {
+    background-image: url('burgerwoodtable.jpg');
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 10px black;
+
+}
+
+.hero-section button {
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+    background: rgb(56, 56, 56);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-section h2 {
+    font-size: 5rem;
+}
+
+.form-section {
+    text-align: center;
+}
+
+
+form input,
+form label,
+form textarea {
+    display: block;
+    font-size: 2.4rem;
+
+}
+
+form input,form textarea {
+    margin:  2rem auto;
+    width: 50%;
+}
+
+form button {
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: rgb(56, 56, 56);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+
